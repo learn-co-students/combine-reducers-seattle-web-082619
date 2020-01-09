@@ -5,7 +5,7 @@ export default function bookApp(
   },
   action
 ) {
-  let idx;
+  let idx; 
   switch (action.type) {
     case "ADD_BOOK":
       return {
